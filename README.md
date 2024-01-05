@@ -10,6 +10,8 @@ The app takes an image of national ID card to extract data from the image using 
 - Tesseract
 - MUI
 
+## You can try the website on [https://ocr-app-one.vercel.app/](https://ocr-app-one.vercel.app/)
+
 ## Available Scripts
 
 ### `npm install`
