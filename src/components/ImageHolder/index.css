@@ -1,0 +1,13 @@
+.img-container {
+    /* background-color: gray; */
+    padding: 10px;
+    margin: 30px;
+    /* width: 600px;
+    height: 600px; */
+}
+
+.img-container img {
+
+    border: 5px solid #1976d2;
+    border-radius: 4%;
+}

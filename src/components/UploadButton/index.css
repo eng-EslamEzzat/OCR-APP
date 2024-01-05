@@ -1,0 +1,14 @@
+.btn-container {
+    /* background-color: gray; */
+    padding: 50px;
+    margin: 10px;
+}
+
+.btn-upload {
+    margin: 50px;
+    font-size: 46px;
+}
+
+.btn-icon {
+    font-size: 46px;
+}
