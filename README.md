@@ -12,7 +12,9 @@ The app takes an image of national ID card to extract data from the image using 
 
 ## Available Scripts
 
-In the project directory, you can run:
+### `npm install`
+
+Installs all the dependencies needed for the application
 
 ### `npm start`
 
