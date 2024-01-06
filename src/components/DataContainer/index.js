@@ -8,7 +8,7 @@ export default function DataContainer() {
   const {data, loggerState} = useSelector(state => state.recognition);
 
   const DataFields = Object.entries(data).map(([key, value]) => (
-    <TextField id="outlined-basic" key={key} label={key.toUpperCase()} variant="outlined" value={value}/>
+    <TextField id="outlined-basic" key={key} label={key.replaceAll('_',' ').toUpperCase()} variant="outlined" value={value}/>
   ))
 
   return (

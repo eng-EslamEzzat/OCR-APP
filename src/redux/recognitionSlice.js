@@ -3,14 +3,14 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   image: null,
   data: {
-    id: "",
+    document_number: "",
     surname: "",
-    givenName: "",
+    given_name: "",
     sex: "",
     nationality: "",
-    dateOfBirth: "",
-    dateOfIssue: "",
-    dateOfExpiry: ""
+    date_of_birth: "",
+    date_of_issue: "",
+    date_of_expiry: ""
   },
   loggerState: ""
 };

@@ -23,14 +23,14 @@ export default function ImageHolders() {
             const listText = ret.data.text.split('\n')
             try {
                 const newData = {
-                    id: listText[3].split(' ').filter( e => e.length === 9)[0]||"N/A",
+                    document_number: listText[3].split(' ').filter( e => e.length === 9)[0]||"N/A",
                     surname: listText[4]||"N/A", 
-                    givenName: listText[6]||"N/A", 
+                    given_name: listText[6]||"N/A", 
                     sex: listText[7].split(' ')[0]||"N/A", 
                     nationality: listText[7].split(' ')[1]||"N/A", 
-                    dateOfBirth: listText[9].match(/\d.*\d/g)[0]||"N/A", 
-                    dateOfIssue: listText[11].slice(2)||"N/A", 
-                    dateOfExpiry: listText[13].match(/\d.*\d/g)[0]||"N/A",
+                    date_of_birth: listText[9].match(/\d.*\d/g)[0]||"N/A", 
+                    date_of_issue: listText[11].slice(2)||"N/A", 
+                    date_of_expiry: listText[13].match(/\d.*\d/g)[0]||"N/A",
                 }
                 dispatch(
                     addRecognition({
